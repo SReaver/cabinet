@@ -1,0 +1,29 @@
+{
+  "name": "cabinet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SReaver/cabinet.git"
+  },
+  "author": "Plotnikov Sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SReaver/cabinet/issues"
+  },
+  "homepage": "https://github.com/SReaver/cabinet#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.5.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  }
+}
