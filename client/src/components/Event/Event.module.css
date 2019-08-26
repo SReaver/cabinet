@@ -1,0 +1,15 @@
+.Event{
+    text-align: center;
+    border: 2px solid rgb(45, 64, 128);
+    margin: 5px;
+    padding: 5px;
+    /* max-width: 400px; */
+    box-sizing: border-box;
+    flex: 1 0 auto;
+}
+button{
+    margin: auto 0;
+}
+img{
+    max-height: 300px;
+}
